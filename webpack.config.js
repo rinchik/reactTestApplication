@@ -18,7 +18,11 @@ var config = {
                 test : /\.jsx?/,
                 include : APP_DIR,
                 loader : 'babel-loader',
-                exclude: /node_modules/
+                exclude: /node_modules/,
+                query:
+                {
+                    presets:['react']
+                }
             },
             {
                 test: /\.scss/,

@@ -19,15 +19,13 @@ class App extends React.Component {
     }
 
     componentWillMount() {
-        this.props.activate();
     }
     
 
     render () {
-
         return (
             <div>
-                <p> Hi</p>
+                <p>Hi</p>
             </div>
         );
     }
